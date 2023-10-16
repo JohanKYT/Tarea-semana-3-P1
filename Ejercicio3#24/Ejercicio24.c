@@ -26,5 +26,7 @@ int main(){
     
     printf ("La suma de los numeros es: %d ",sumanum);
 
+    printf("\nGRACIAS");
+
     return 0;
 }
