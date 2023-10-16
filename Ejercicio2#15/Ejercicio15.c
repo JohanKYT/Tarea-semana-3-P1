@@ -13,6 +13,7 @@ int main (){
         printf("%d ", multiplode20);
     }
     
+        printf("\n GRACIAS");
 
     return 0;
 }
