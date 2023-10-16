@@ -9,6 +9,10 @@ int main (){
     printf("Ingrese el numero de 3 dijitos:\n");
     scanf("%d",&numingresado);
 
+    if (numingresado<0){
+        numingresado=-numingresado;
+    }
+
     if (numingresado<100||numingresado>999)
     {
         printf ("El numero ingresado es incorrecto\n");
