@@ -22,7 +22,14 @@ int main (){
         {
             printf("%d ",cont);
         }
-        
+
+        printf("Los numeros enteros que se encuentran entre 1 y el segundo digito son: ");
+        for (int cont = 1; cont <= dig2; cont++)
+        {
+            printf("%d ",cont);
+        }
+
+
 
     }
     
