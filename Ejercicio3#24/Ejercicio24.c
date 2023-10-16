@@ -6,12 +6,12 @@ int main(){
     int sumanum=0;
     int dig;
 
-    printf("");
+    printf("Ingrese el numero\n");
     scanf("%d",&numingresado);
 
     if (numingresado<0)
     {
-        numingresado=-(numingresado);
+        numingresado=-numingresado;
     }
 
     while (numingresado>0)
@@ -21,12 +21,10 @@ int main(){
         {
             sumanum=sumanum+dig;
         }
-        
-
-
+        numingresado= numingresado/10;
     }
     
-    
+    printf ("La suma de los numeros es: %d ",sumanum);
 
     return 0;
 }
