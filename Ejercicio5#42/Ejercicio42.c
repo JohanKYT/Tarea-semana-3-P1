@@ -17,11 +17,10 @@ int main (){
         int sig=ant+act;
         ant=act;
         act=sig;
-        
     }
-    
+        int prom=sumnum/cont;
 
-
+        printf("\nEl promedio de los numeros enteros de la serie de Fibonacci entre 0 y 1000 es: %d",prom);
 
     return 0;
 }
