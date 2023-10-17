@@ -19,9 +19,20 @@ int main(){
             }
             
         }
+
+        if (PrimoSi)
+        {
+            numprimo=i;
+            break;
+        }
         
 
     }
+    if (numprimo!=0)
+    {
+        printf("\nEl numero primo mas cercano por debajo a %d es: %d ", numsuperior,numprimo);
+    }
+    
 
 return 0;
 }
