@@ -22,5 +22,6 @@ int main (){
 
         printf("\nEl promedio de los numeros enteros de la serie de Fibonacci entre 0 y 1000 es: %d",prom);
 
+    printf("\nGRACIAS");
     return 0;
 }
