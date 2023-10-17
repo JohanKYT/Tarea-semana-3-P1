@@ -33,6 +33,7 @@ int main(){
         printf("\nEl numero primo mas cercano por debajo a %d es: %d ", numsuperior,numprimo);
     }
     
+    printf("\nGRACIAS");
 
 return 0;
 }
