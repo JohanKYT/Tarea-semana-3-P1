@@ -7,6 +7,18 @@ int main (){
     int sumnum = 0;
     int cont = 0;
 
+    while (act<=1000)
+    {
+        if (act%2==0)
+        {
+           sumnum=sumnum+act;
+           cont++;
+        }
+        int sig=ant+act;
+        ant=act;
+        act=sig;
+        
+    }
     
 
 
